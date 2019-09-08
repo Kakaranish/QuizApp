@@ -7,9 +7,7 @@
     <bitmap android:src="@drawable/quizcover"
             android:scaleType="matrix"
             android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            >
-    </bitmap>
+            android:layout_width="fill_parent"/>
   </item>
 
 </layer-list>
