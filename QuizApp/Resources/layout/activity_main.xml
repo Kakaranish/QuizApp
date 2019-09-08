@@ -5,8 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    >
+    android:fitsSystemWindows="true">
+
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -14,13 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/backgroundColor"
-    >
+        android:background="@color/backgroundColor">
 
         <include
             layout="@drawable/toolbar"
-            android:id="@+id/toolbar"  
-    />
+            android:id="@+id/toolbar"/>
 
         <TextView
             android:text="Select a Topic for Quiz"
@@ -28,8 +26,7 @@
             android:gravity="center"
             android:padding="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-        />
+            android:layout_height="wrap_content"/>
 
         <ScrollView
             android:scrollbars="vertical"
@@ -44,8 +41,7 @@
                 android:paddingHorizontal="16dp"
                 android:paddingBottom="16dp"
                 android:layout_gravity="center_horizontal"
-                android:useDefaultMargins="true"
-        >
+                android:useDefaultMargins="true">
 
                 <!--First Row-->
 
@@ -53,61 +49,52 @@
                     android:id="@+id/historyCardView"
                     android:layout_width="147dp"
                     android:layout_height="147dp"
-                    android:layout_marginRight="20dp"
-                >
+                    android:layout_marginRight="20dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:src="@drawable/history"
                             style="@style/topicImage"
-                            android:layout_marginVertical="5dp"
-                    />
+                            android:layout_marginVertical="5dp"/>
 
                         <View
                             android:layout_marginHorizontal="5dp"
-                            style="@style/horizontalLine" 
-                    />
+                            style="@style/horizontalLine"/>
 
                         <TextView
                             android:text="History"
-                            style="@style/topicStyle"
-                    />
+                            style="@style/topicStyle"/>
 
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                  android:id="@+id/geographyCardView"
+                    android:id="@+id/geographyCardView"
                     android:layout_width="147dp"
                     android:layout_height="147dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:src="@drawable/geography"
                             style="@style/topicImage"
-                            android:layout_marginVertical="5dp"
-                    />
+                            android:layout_marginVertical="5dp"/>
 
                         <View
                             android:layout_marginHorizontal="5dp"
-                            style="@style/horizontalLine" 
-                    />
+                            style="@style/horizontalLine"/>
 
                         <TextView
                             android:text="Geography"
-                            style="@style/topicStyle"
-                        />
+                            style="@style/topicStyle"/>
 
                     </LinearLayout>
 
@@ -119,31 +106,26 @@
                     android:layout_width="147dp"
                     android:layout_height="147dp"
                     android:layout_marginTop="15dp"
-                    android:id="@+id/spaceCardView"
-                >
+                    android:id="@+id/spaceCardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:src="@drawable/space"
                             style="@style/topicImage"
-                            android:layout_marginVertical="5dp"
-                    />
+                            android:layout_marginVertical="5dp"/>
 
                         <View
                             android:layout_marginHorizontal="5dp"
-                            style="@style/horizontalLine" 
-                    />
+                            style="@style/horizontalLine"/>
 
                         <TextView
                             android:text="Space"
                             android:layout_marginTop="5dp"
-                            style="@style/topicStyle"
-                        />
+                            style="@style/topicStyle"/>
 
                     </LinearLayout>
 
@@ -153,31 +135,26 @@
                     android:layout_width="147dp"
                     android:layout_height="147dp"
                     android:layout_marginTop="15dp"
-                    android:id="@+id/engineeringCardView"
-            >
+                    android:id="@+id/engineeringCardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:src="@drawable/engineering"
                             style="@style/topicImage"
-                            android:layout_marginVertical="5dp"
-                    />
+                            android:layout_marginVertical="5dp"/>
 
                         <View
                             android:layout_marginHorizontal="5dp"
-                            style="@style/horizontalLine" 
-                    />
+                            style="@style/horizontalLine"/>
 
                         <TextView
                             android:text="Engineering"
                             android:layout_marginTop="5dp"
-                            style="@style/topicStyle"
-                        />
+                            style="@style/topicStyle"/>
 
                     </LinearLayout>
 
@@ -189,31 +166,26 @@
                     android:id="@+id/programmingCardView"
                     android:layout_width="147dp"
                     android:layout_height="147dp"
-                    android:layout_marginTop="15dp"
-                >
+                    android:layout_marginTop="15dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:src="@drawable/programming"
                             style="@style/topicImage"
-                            android:layout_marginVertical="5dp"
-                    />
+                            android:layout_marginVertical="5dp"/>
 
                         <View
                             android:layout_marginHorizontal="5dp"
-                            style="@style/horizontalLine" 
-                    />
+                            style="@style/horizontalLine"/>
 
                         <TextView
                             android:text="Programming"
                             android:layout_marginTop="5dp"
-                            style="@style/topicStyle"
-                        />
+                            style="@style/topicStyle"/>
 
                     </LinearLayout>
 
@@ -223,31 +195,26 @@
                     android:layout_width="147dp"
                     android:layout_height="147dp"
                     android:layout_marginTop="15dp"
-                    android:id="@+id/businessCardView"
-            >
+                    android:id="@+id/businessCardView">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:src="@drawable/business"
                             style="@style/topicImage"
-                            android:layout_marginVertical="5dp"
-                    />
+                            android:layout_marginVertical="5dp"/>
 
                         <View
                             android:layout_marginHorizontal="5dp"
-                            style="@style/horizontalLine" 
-                    />
+                            style="@style/horizontalLine"/>
 
                         <TextView
                             android:text="Business"
                             android:layout_marginTop="5dp"
-                            style="@style/topicStyle"
-                    />
+                            style="@style/topicStyle"/>
 
                     </LinearLayout>
 
