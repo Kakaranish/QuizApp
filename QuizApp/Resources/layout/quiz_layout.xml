@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/quizToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+      />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+    >
+        <TextView
+            android:id="@+id/timerTextView"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/questionHeaderTextView"
+        android:text="Question 1/5"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:text="During which decade was slavery abolished in the United States?"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop=" 10dp"
+      />
+
+
+    <RadioGroup
+        android:id="@+id/answersRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        >
+        <RadioButton
+            android:id="@+id/answerARadioButton"
+            android:text="Answer A"
+            android:textColor="@color/defaultTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            />
+
+        <RadioButton
+            android:id="@+id/answerBRadioButton"
+            android:text="Answer B"
+            android:textColor="@color/defaultTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            />
+
+        <RadioButton
+            android:text="Answer C"
+            android:textColor="@color/defaultTextColor"
+            android:id="@+id/answerCRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            />
+
+        <RadioButton
+            android:text="Answer D"
+            android:textColor="@color/defaultTextColor"
+            android:id="@+id/answerDRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            />
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:text="Proceed"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@color/colorAccent"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

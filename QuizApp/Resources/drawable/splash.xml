@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:drawable="@android:color/white"/>
+
+  <item>
+    <bitmap android:src="@drawable/quizcover"
+            android:scaleType="matrix"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            >
+    </bitmap>
+  </item>
+
+</layer-list>

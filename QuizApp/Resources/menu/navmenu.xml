@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--For all properties see: http://developer.android.com/guide/topics/resources/menu-resource.html-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <group>
+    
+    <item
+      android:id="@+id/navHistory"
+      android:title="History"
+      android:icon="@drawable/outline_history"
+    />
+
+    <item
+      android:id="@+id/navGeography"
+      android:title="Geography"
+      android:icon="@drawable/outline_geography"
+    />
+
+    <item
+      android:id="@+id/navSpace"
+      android:title="Space"
+      android:icon="@drawable/outline_space"
+    />
+
+    <item
+      android:id="@+id/navEngineering"
+      android:title="Engineering"
+      android:icon="@drawable/outline_engineering"
+    />
+
+    <item
+      android:id="@+id/navProgramming"
+      android:title="Programming"
+      android:icon="@drawable/outline_programming"
+    />
+
+    <item
+      android:id="@+id/navBusiness"
+      android:title="Business"
+      android:icon="@drawable/outline_business"
+    />
+
+  </group>
+</menu>
